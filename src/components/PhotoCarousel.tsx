@@ -22,7 +22,7 @@ const PhotoCarousel = () => {
             </p>
           </div>
         </div>
-        <div className="mx-auto w-full max-w-6xl px-9">
+        <div className="mx-auto w-full max-w-6xl">
           <Carousel className="w-full">
             <CarouselContent>
               <CarouselItem className="md:basis-1/2 lg:basis-1/3">
