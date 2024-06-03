@@ -17,13 +17,12 @@ const PhotoCarousel = () => {
             <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">
               Hình ảnh
             </h2>
-            <p className="max-w-[900px] text-gray-500 dark:text-gray-400 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
+            <p className="max-w-[900px] md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
               Xem hình ảnh của các xe và tài xế của chúng tôi.
             </p>
           </div>
         </div>
-        <div className="mx-auto w-full max-w-6xl">
-          {" "}
+        <div className="mx-auto w-full max-w-6xl px-9">
           <Carousel className="w-full">
             <CarouselContent>
               <CarouselItem className="md:basis-1/2 lg:basis-1/3">
