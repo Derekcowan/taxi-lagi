@@ -18,7 +18,7 @@ const PhotoCarousel = () => {
               Hình ảnh
             </h2>
             <p className="max-w-[900px] md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-              Xem hình ảnh của các xe và tài xế của chúng tôi.
+              Xem hình ảnh của xe và tài xế của chúng tôi.
             </p>
           </div>
         </div>
