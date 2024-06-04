@@ -13,10 +13,8 @@ const Header = () => {
         <Image
           alt="TAXI La Gi"
           height={60}
-          src="/Taxi La Gi LogoV2.png"
-          width={200}
-          objectFit="contain"
-          objectPosition="center"
+          src="/Taxi La Gi Thinh.png"
+          width={240}
         />
       </Link>
       <nav className="ml-auto flex gap-x-1">
