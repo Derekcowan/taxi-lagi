@@ -9,7 +9,7 @@ const Services = () => {
             <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">
               Dịch vụ của chúng tôi
             </h2>
-            <p className="max-w-[900px] text-gray-500 dark:text-gray-400 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
+            <p className="max-w-[900px] md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
               Chúng tôi cung cấp nhiều dịch vụ vận chuyển để đáp ứng nhu cầu của
               bạn.
             </p>

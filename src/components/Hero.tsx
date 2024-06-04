@@ -11,7 +11,9 @@ const Hero = () => {
         <div className="space-y-10 px-4 md:px-6 xl:space-y-16">
           <div className="mx-auto grid max-w-[1300px] justify-center gap-4 px-4 sm:px-6 md:grid-cols-2 md:gap-16 md:px-10">
             <div className="flex flex-col justify-center gap-y-3">
-              <span className="font-black text-primary">TÀI XẾ RIÊNG</span>
+              <span className="font-bold tracking-normal text-primary">
+                TÀI XẾ RIÊNG
+              </span>
               <h1 className="lg:leading-tighter text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl xl:text-[3.4rem] 2xl:text-[3.75rem]">
                 Bạn đi đâu? Đi xe thoải mái cùng Thịnh!
               </h1>
@@ -22,15 +24,22 @@ const Hero = () => {
                 máy lạnh và wifi.
               </p>
               <div className="mt-6 space-x-4 py-4">
-                <Button variant="default" size="lg">
-                  <Link href="tel:0962325023">0962 325 023</Link>
+                <Button variant="default" size="lg" className="mb-2">
+                  <Link
+                    href="tel:0962325023"
+                    className="text-lg text-foreground"
+                  >
+                    0962 325 023
+                  </Link>
                 </Button>
                 <Button
                   variant="secondary"
                   className="bg-blue-400 hover:bg-blue-300"
                   size="lg"
                 >
-                  <Link href="https://zalo.me/0962325023">Zalo</Link>
+                  <Link href="https://zalo.me/0962325023" className="text-lg">
+                    Zalo
+                  </Link>
                 </Button>
               </div>
               <Separator />
@@ -49,10 +58,12 @@ const Hero = () => {
             <div className="mt-10 flex flex-col items-start space-y-4">
               <Image
                 alt="Hero"
+                src="/Taxi-Lagi-Thinh.jpeg"
                 className="mx-auto aspect-video overflow-hidden rounded-xl object-cover sm:w-full lg:order-last lg:aspect-square"
                 height="550"
-                src="/Taxi-Lagi-Thinh.jpeg"
                 width="550"
+                object-fit="cover"
+                priority
               />
             </div>
           </div>

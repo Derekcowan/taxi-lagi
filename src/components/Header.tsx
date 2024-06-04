@@ -15,22 +15,30 @@ const Header = () => {
           height={60}
           src="/Taxi La Gi LogoV2.png"
           width={200}
+          objectFit="contain"
+          objectPosition="center"
         />
       </Link>
       <nav className="ml-auto flex gap-x-1">
-        <Link href="https://www.tiktok.com/@hoangvuongthinh">
-          <Button variant="ghost" size="icon">
+        <Link
+          href="https://www.tiktok.com/@hoangvuongthinh"
+          aria-label="tiktok"
+        >
+          <Button variant="ghost" size="icon" aria-label="tiktok">
             <FontAwesomeIcon icon={faTiktok} width={24} height={24} />
           </Button>
         </Link>
         {/* need to add a username on Facebook */}
-        <Link href="https://www.facebook.com/profile.php?id=61557017503980">
-          <Button variant="ghost" size="icon">
+        <Link
+          href="https://www.facebook.com/profile.php?id=61557017503980"
+          aria-label="facebook"
+        >
+          <Button variant="ghost" size="icon" aria-label="facebook">
             <Facebook />
           </Button>
         </Link>
-        <Link href="tel:0962325023">
-          <Button variant="ghost" size="icon">
+        <Link href="tel:0962325023" aria-label="phone number">
+          <Button variant="ghost" size="icon" aria-label="phone">
             <Phone />
           </Button>
         </Link>
