@@ -31,7 +31,7 @@ export const metadata: Metadata = {
     title: "TAXI La Gi | Dịch Vụ Taxi Riêng | Gọi 0962 325023",
     description:
       "Đặt taxi riêng tại La Gi với tài xế giàu kinh nghiệm. Chúng tôi cung cấp xe 4-7 chỗ thoải mái cho du lịch, đưa đón sân bay, đám cưới và các chuyến đi dài. Gọi ngay 0962 325023!",
-    images: ["/Taxi La Gi Thinh (2).png]",
+    images: ["/Taxi La Gi Thinh (2).png]"],
   },
 };
 
