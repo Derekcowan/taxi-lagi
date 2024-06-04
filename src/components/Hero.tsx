@@ -23,7 +23,7 @@ const Hero = () => {
                 hoặc dài. Tài xế giàu kinh nghiệm, lịch sự, vận hành xe mới có
                 máy lạnh và wifi.
               </p>
-              <div className="mt-6 space-x-4 py-4">
+              <div className="mt-4 space-x-5 py-4">
                 <Button variant="default" size="lg" className="mb-2">
                   <Link
                     href="tel:0962325023"
