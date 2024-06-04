@@ -13,7 +13,7 @@ const Header = () => {
         <Image
           alt="TAXI La Gi"
           height={60}
-          src="/Taxi La Gi Thinh.png"
+          src="/Taxi La Gi logo.svg"
           width={240}
         />
       </Link>
