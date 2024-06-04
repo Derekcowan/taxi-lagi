@@ -11,7 +11,7 @@ const Hero = () => {
         <div className="space-y-10 px-4 md:px-6 xl:space-y-16">
           <div className="mx-auto grid max-w-[1300px] justify-center gap-4 px-4 sm:px-6 md:grid-cols-2 md:gap-16 md:px-10">
             <div className="flex flex-col justify-center gap-y-3">
-              <span className="font-bold tracking-normal text-primary">
+              <span className="font-bold tracking-wide text-muted-foreground">
                 TÀI XẾ RIÊNG
               </span>
               <h1 className="lg:leading-tighter text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl xl:text-[3.4rem] 2xl:text-[3.75rem]">

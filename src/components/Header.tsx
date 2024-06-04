@@ -28,9 +28,8 @@ const Header = () => {
             <FontAwesomeIcon icon={faTiktok} width={24} height={24} />
           </Button>
         </Link>
-        {/* need to add a username on Facebook */}
         <Link
-          href="https://www.facebook.com/profile.php?id=61557017503980"
+          href="https://www.facebook.com/taxilagithinh"
           aria-label="facebook"
         >
           <Button variant="ghost" size="icon" aria-label="facebook">
