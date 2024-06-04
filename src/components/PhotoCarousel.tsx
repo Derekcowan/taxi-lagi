@@ -28,38 +28,42 @@ const PhotoCarousel = () => {
               <CarouselItem className="md:basis-1/2 lg:basis-1/3">
                 <Image
                   alt="Ca 1 "
-                  className="aspect-video rounded-lg object-cover object-bottom"
+                  className="aspect-square rounded-lg object-cover object-bottom"
                   height={400}
                   src="/lagi-taxi.jpg"
                   width={800}
+                  quality={60}
                 />
               </CarouselItem>
               <CarouselItem className="md:basis-1/2 lg:basis-1/3">
                 <Image
                   alt="Car 3"
-                  className="aspect-video rounded-lg object-cover"
+                  className="aspect-square rounded-lg object-cover"
                   height={400}
                   src="/Taxi-Lagi-Thinh.jpeg"
                   width={800}
+                  quality={60}
                 />
               </CarouselItem>
               <CarouselItem className="md:basis-1/2 lg:basis-1/3">
                 <Image
                   alt="Car 3"
-                  className="zoom aspect-video rounded-lg object-cover object-bottom"
+                  className="zoom aspect-square rounded-lg object-cover object-bottom"
                   height={400}
                   src="/airport.jpg"
                   width={800}
+                  quality={60}
                 />
               </CarouselItem>
 
               <CarouselItem className="md:basis-1/2 lg:basis-1/3">
                 <Image
                   alt="Car 2"
-                  className="aspect-video rounded-lg object-cover"
+                  className="aspect-square rounded-lg object-cover"
                   height={400}
                   src="/TAXI La Gi, Binh Thuan map.png"
                   width={800}
+                  quality={60}
                 />
               </CarouselItem>
             </CarouselContent>

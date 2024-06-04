@@ -34,8 +34,8 @@ const Hero = () => {
                 </Button>
                 <Button
                   variant="secondary"
-                  className="bg-blue-400 hover:bg-blue-300"
                   size="lg"
+                  className="bg-blue-400 hover:bg-blue-300"
                 >
                   <Link href="https://zalo.me/0962325023" className="text-lg">
                     Zalo
@@ -60,9 +60,9 @@ const Hero = () => {
                 alt="Hero"
                 src="/Taxi-Lagi-Thinh.jpeg"
                 className="mx-auto aspect-video overflow-hidden rounded-xl object-cover sm:w-full lg:order-last lg:aspect-square"
-                height="550"
-                width="550"
-                object-fit="cover"
+                height={550}
+                width={550}
+                quality={60}
                 priority
               />
             </div>
