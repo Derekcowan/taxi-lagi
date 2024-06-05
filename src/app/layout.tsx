@@ -17,7 +17,7 @@ export const metadata: Metadata = {
   keywords:
     "taxi la gi, taxi riêng, taxi la gi bình thuận, taxi la gi bình thuận",
   creator: "Derek Cowan",
-
+  robots: "index, follow",
   twitter: {
     card: "summary_large_image",
   },
