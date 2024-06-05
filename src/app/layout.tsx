@@ -21,6 +21,12 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
   },
+  openGraph: {
+    images: {
+      url: "https://www.taxilagi.com/opengraph-image.jpg",
+      alt: "TAXI La Gi",
+    },
+  },
 };
 
 export default function RootLayout({
