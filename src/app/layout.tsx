@@ -3,6 +3,7 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import { ThemeProvider } from "@/providers/theme-provider";
 import Script from "next/script";
+import ogImage from "./opengraph-image.png";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -13,13 +14,24 @@ export const metadata: Metadata = {
   },
   description:
     "Đặt taxi riêng tại La Gi với tài xế giàu kinh nghiệm. Chúng tôi cung cấp xe 4-7 chỗ thoải mái cho du lịch, đưa đón sân bay, đám cưới và các chuyến đi dài. Gọi ngay 0962 325023!",
-  category: "Travel",
-  keywords:
-    "taxi la gi, taxi riêng, taxi la gi bình thuận, taxi la gi bình thuận",
-  creator: "Derek Cowan",
-  robots: "index, follow",
+  metadataBase: new URL("https://www.taxilagi.com"),
+  // category: "Travel",
+  // keywords:
+  //   "taxi la gi, taxi riêng, taxi la gi bình thuận, taxi la gi bình thuận",
+  // creator: "Derek Cowan",
+  // robots: "index, follow",
   twitter: {
     card: "summary_large_image",
+  },
+  openGraph: {
+    images: [
+      {
+        url: ogImage.src,
+        width: ogImage.width,
+        height: ogImage.height,
+        alt: "TAXI La Gi",
+      },
+    ],
   },
 };
 
