@@ -13,6 +13,11 @@ export const metadata: Metadata = {
   },
   description:
     "Đặt taxi riêng tại La Gi với tài xế giàu kinh nghiệm. Chúng tôi cung cấp xe 4-7 chỗ thoải mái cho du lịch, đưa đón sân bay, đám cưới và các chuyến đi dài. Gọi ngay 0962 325023!",
+  category: "Travel",
+  keywords:
+    "taxi la gi, taxi riêng, taxi la gi bình thuận, taxi la gi bình thuận",
+  creator: "Derek Cowan",
+
   twitter: {
     card: "summary_large_image",
   },
