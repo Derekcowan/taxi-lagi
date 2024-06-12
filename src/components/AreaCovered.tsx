@@ -1,3 +1,4 @@
+import { MoveRight } from "lucide-react";
 import Image from "next/image";
 
 const AreaCovered = () => {
@@ -24,44 +25,63 @@ const AreaCovered = () => {
             quality={60}
           />
         </div>
-        {/* <div className="mx-auto grid max-w-5xl items-center gap-6 py-12 lg:grid-cols-3 lg:gap-12">
-      <div className="grid gap-1">
-        <h3 className="text-lg font-bold">New York City</h3>
-        <p className="text-sm text-gray-500 dark:text-gray-400">
-          Serving all five boroughs of New York City.
-        </p>
-      </div>
-      <div className="grid gap-1">
-        <h3 className="text-lg font-bold">Los Angeles</h3>
-        <p className="text-sm text-gray-500 dark:text-gray-400">
-          Providing transportation throughout the LA metro area.
-        </p>
-      </div>
-      <div className="grid gap-1">
-        <h3 className="text-lg font-bold">Chicago</h3>
-        <p className="text-sm text-gray-500 dark:text-gray-400">
-          Serving the greater Chicago metropolitan region.
-        </p>
-      </div>
-      <div className="grid gap-1">
-        <h3 className="text-lg font-bold">Miami</h3>
-        <p className="text-sm text-gray-500 dark:text-gray-400">
-          Covering Miami and the surrounding South Florida area.
-        </p>
-      </div>
-      <div className="grid gap-1">
-        <h3 className="text-lg font-bold">Boston</h3>
-        <p className="text-sm text-gray-500 dark:text-gray-400">
-          Serving the greater Boston metropolitan region.
-        </p>
-      </div>
-      <div className="grid gap-1">
-        <h3 className="text-lg font-bold">Washington, D.C.</h3>
-        <p className="text-sm text-gray-500 dark:text-gray-400">
-          Providing transportation throughout the D.C. metro area.
-        </p>
-      </div>
-    </div> */}
+        <div className="mx-auto grid max-w-5xl items-center gap-6 py-12 lg:grid-cols-3 lg:gap-12">
+          <div className="grid gap-1">
+            <h3 className="flcx-row flex text-lg font-bold">
+              La Gi <MoveRight className="mx-4 items-center justify-center" />{" "}
+              Nơi nào 🤩
+            </h3>
+            <p className="text-sm text-gray-500 dark:text-gray-400">
+              Chúng tôi sẽ lái xe đến bất cứ nơi nào bạn cần đến trong nước hoặc
+              trên khắp Việt Nam!
+            </p>
+          </div>
+          <div className="grid gap-1">
+            <h3 className="flcx-row flex text-lg font-bold">
+              La Gi <MoveRight className="mx-4 items-center justify-center" />{" "}
+              Sài Gòn
+            </h3>
+            <p className="text-sm text-gray-500 dark:text-gray-400">
+              Du lịch Sài Gòn không căng thẳng. <br /> 💺💺💺💺💺💺💺
+            </p>
+          </div>
+          <div className="grid gap-1">
+            <h3 className="flcx-row flex text-lg font-bold">
+              Sài Gòn
+              <MoveRight className="mx-4 items-center justify-center" /> La Gi
+            </h3>
+            <p className="text-sm text-gray-500 dark:text-gray-400">
+              Chúng tôi sẽ đưa bạn về nhà một cách thoải mái.
+            </p>
+          </div>
+          {/* <div className="grid gap-1">
+            <h3 className="flcx-row flex text-lg font-bold">
+              La Gi <MoveRight className="mx-4 items-center justify-center" />{" "}
+              Saigon
+            </h3>
+            <p className="text-sm text-gray-500 dark:text-gray-400">
+              Serving the greater Chicago metropolitan region.
+            </p>
+          </div>
+          <div className="grid gap-1">
+            <h3 className="flcx-row flex text-lg font-bold">
+              La Gi <MoveRight className="mx-4 items-center justify-center" />{" "}
+              Sài Gòn
+            </h3>
+            <p className="text-sm text-gray-500 dark:text-gray-400">
+              Du lịch Sài Gòn không căng thẳng.
+            </p>
+          </div>
+          <div className="grid gap-1">
+            <h3 className="flcx-row flex text-lg font-bold">
+              La Gi <MoveRight className="mx-4 items-center justify-center" />{" "}
+              Saigon
+            </h3>
+            <p className="text-sm text-gray-500 dark:text-gray-400">
+              Serving the greater Boston metropolitan region.
+            </p>
+          </div> */}
+        </div>
       </div>
     </section>
   );

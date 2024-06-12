@@ -40,7 +40,7 @@ const PhotoCarousel = () => {
                   alt="Car 3"
                   className="aspect-square rounded-lg object-cover"
                   height={400}
-                  src="/Taxi-Lagi-Thinh.jpeg"
+                  src="/Taxi La gi-1.png"
                   width={800}
                   quality={60}
                 />
@@ -55,13 +55,32 @@ const PhotoCarousel = () => {
                   quality={60}
                 />
               </CarouselItem>
-
               <CarouselItem className="md:basis-1/2 lg:basis-1/3">
                 <Image
                   alt="Car 2"
                   className="aspect-square rounded-lg object-cover"
                   height={400}
-                  src="/TAXI La Gi, Binh Thuan map.png"
+                  src="/Taxi La gi-4.png"
+                  width={800}
+                  quality={60}
+                />
+              </CarouselItem>
+              <CarouselItem className="md:basis-1/2 lg:basis-1/3">
+                <Image
+                  alt="Car 2"
+                  className="aspect-square rounded-lg object-cover"
+                  height={400}
+                  src="/Taxi La gi-7.png"
+                  width={800}
+                  quality={60}
+                />
+              </CarouselItem>
+              <CarouselItem className="md:basis-1/2 lg:basis-1/3">
+                <Image
+                  alt="Car 2"
+                  className="aspect-square rounded-lg object-cover"
+                  height={400}
+                  src="/Taxi La gi-5.png"
                   width={800}
                   quality={60}
                 />

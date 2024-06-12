@@ -8,13 +8,13 @@ const Hero = () => {
   return (
     <main className="flex-1">
       <section className="w-full border-y pt-12 md:pt-24 lg:pt-32">
-        <div className="space-y-10 px-4 md:px-6 xl:space-y-16">
+        <div className="space-y-10 px-2 md:px-6 xl:space-y-16">
           <div className="mx-auto grid max-w-[1300px] justify-center gap-4 px-4 sm:px-6 md:grid-cols-2 md:gap-16 md:px-10">
             <div className="flex flex-col justify-center gap-y-1">
-              <span className="font-bold tracking-wide text-muted-foreground">
+              <span className="text-xm font-semibold tracking-wide text-muted-foreground lg:text-xl">
                 TÀI XẾ RIÊNG
               </span>
-              <h1 className="lg:leading-tighter text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl xl:text-[3.4rem] 2xl:text-[3.75rem]">
+              <h1 className="lg:leading-tighter mb-2 text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl xl:text-6xl 2xl:text-[3.75rem]">
                 Bạn đi đâu? Đi xe thoải mái cùng Thịnh!
               </h1>
               <p className="mx-auto max-w-[700px] text-muted-foreground md:text-xl">
@@ -43,7 +43,7 @@ const Hero = () => {
                 </Button>
               </div>
               <Separator />
-              <div className="flex flex-row gap-x-2 md:gap-x-3 lg:gap-x-4">
+              <div className="mt-1 flex flex-row justify-between gap-x-2 md:justify-normal md:gap-x-3 lg:justify-normal lg:gap-x-4 xl:justify-normal">
                 <div className="flex flex-row items-center gap-x-2 text-xs lg:text-base">
                   <MessageCircle className="h-6 w-6 text-primary" /> Hỗ trợ
                 </div>

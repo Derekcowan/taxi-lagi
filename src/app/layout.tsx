@@ -1,11 +1,14 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { Be_Vietnam_Pro } from "next/font/google";
 import "./globals.css";
 import { ThemeProvider } from "@/providers/theme-provider";
 import Script from "next/script";
 import ogImage from "./opengraph-image.png";
 
-const inter = Inter({ subsets: ["latin"] });
+const beVietnam = Be_Vietnam_Pro({
+  weight: ["400", "500", "600", "700"],
+  subsets: ["latin"],
+});
 
 export const metadata: Metadata = {
   title: {
@@ -50,7 +53,7 @@ export default function RootLayout({
   gtag('config', 'G-CLHW0DKC34');`}
         </Script>
       </head>
-      <body className={inter.className}>
+      <body className={beVietnam.className}>
         <ThemeProvider
           attribute="class"
           defaultTheme="system"
