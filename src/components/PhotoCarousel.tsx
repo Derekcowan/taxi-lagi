@@ -30,7 +30,7 @@ const PhotoCarousel = () => {
                   alt="Ca 1 "
                   className="aspect-square rounded-lg object-cover object-bottom"
                   height={400}
-                  src="/lagi-taxi.jpg"
+                  src="/lagi-taxi.png"
                   width={800}
                   quality={60}
                 />
