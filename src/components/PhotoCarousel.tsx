@@ -50,7 +50,7 @@ const PhotoCarousel = () => {
                   alt="Car 3"
                   className="zoom aspect-square rounded-lg object-cover object-bottom"
                   height={400}
-                  src="/airport.jpg"
+                  src="/taxi-la-gi-airport.png"
                   width={800}
                   quality={60}
                 />
