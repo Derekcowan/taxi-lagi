@@ -22,7 +22,7 @@ const AreaCovered = () => {
             src="/TAXI La Gi, Binh Thuan map.png"
             width="800"
             className="mx-auto rounded-lg object-cover"
-            quality={60}
+            quality={40}
           />
         </div>
         <div className="mx-auto grid max-w-5xl items-center gap-6 py-12 lg:grid-cols-3 lg:gap-12">
