@@ -10,7 +10,7 @@ const Hero = () => {
       <section className="w-full border-y pt-12 md:pt-24 lg:pt-32">
         <div className="space-y-10 px-4 md:px-6 xl:space-y-16">
           <div className="mx-auto grid max-w-[1300px] justify-center gap-4 px-4 sm:px-6 md:grid-cols-2 md:gap-16 md:px-10">
-            <div className="flex flex-col justify-center gap-y-3">
+            <div className="flex flex-col justify-center gap-y-1">
               <span className="font-bold tracking-wide text-muted-foreground">
                 TÀI XẾ RIÊNG
               </span>
@@ -23,8 +23,8 @@ const Hero = () => {
                 hoặc dài. Tài xế giàu kinh nghiệm, lịch sự, vận hành xe mới có
                 máy lạnh và wifi.
               </p>
-              <div className="mt-4 space-x-5 py-4">
-                <Button variant="default" size="lg" className="mb-2">
+              <div className="mt-4 flex flex-row flex-wrap gap-2 py-4">
+                <Button variant="default" size="lg" className="">
                   <Link
                     href="tel:0962325023"
                     className="text-lg text-foreground"
@@ -43,14 +43,14 @@ const Hero = () => {
                 </Button>
               </div>
               <Separator />
-              <div className="flex flex-row gap-x-4">
-                <div className="flex flex-row items-center gap-x-2 text-sm">
+              <div className="flex flex-row gap-x-2 md:gap-x-3 lg:gap-x-4">
+                <div className="flex flex-row items-center gap-x-2 text-xs lg:text-base">
                   <MessageCircle className="h-6 w-6 text-primary" /> Hỗ trợ
                 </div>
-                <div className="flex flex-row items-center gap-x-2 text-sm">
+                <div className="flex flex-row items-center gap-x-2 text-xs lg:text-base">
                   <Clock className="h-6 w-6 text-primary" /> 24/24
                 </div>
-                <div className="flex flex-row items-center gap-x-2 text-sm">
+                <div className="flex flex-row items-center gap-x-2 text-xs lg:text-base">
                   <MapPin className="h-6 w-6 text-primary" /> La Gi, Bình Thuận
                 </div>
               </div>

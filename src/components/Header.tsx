@@ -8,7 +8,7 @@ import { Phone } from "lucide-react";
 
 const Header = () => {
   return (
-    <header className="flex h-14 items-center px-4 lg:px-6">
+    <header className="flex h-14 items-center justify-between px-1 md:px-3 lg:px-6">
       <Link className="flex items-center justify-center" href="#">
         <Image
           alt="TAXI La Gi"
@@ -17,13 +17,13 @@ const Header = () => {
           width={240}
         />
       </Link>
-      <nav className="ml-auto flex gap-x-1">
+      <nav className="ml-auto flex flex-row">
         <Link
           href="https://www.tiktok.com/@hoangvuongthinh"
           aria-label="tiktok"
         >
           <Button variant="ghost" size="icon" aria-label="tiktok">
-            <FontAwesomeIcon icon={faTiktok} width={24} height={24} />
+            <FontAwesomeIcon icon={faTiktok} width={20} height={20} />
           </Button>
         </Link>
         <Link
@@ -31,12 +31,12 @@ const Header = () => {
           aria-label="facebook"
         >
           <Button variant="ghost" size="icon" aria-label="facebook">
-            <Facebook />
+            <Facebook size={20} />
           </Button>
         </Link>
         <Link href="tel:0962325023" aria-label="phone number">
           <Button variant="ghost" size="icon" aria-label="phone">
-            <Phone />
+            <Phone size={20} />
           </Button>
         </Link>
       </nav>
