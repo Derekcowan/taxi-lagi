@@ -58,7 +58,7 @@ const Hero = () => {
             <div className="mt-10 flex flex-col items-start space-y-4">
               <Image
                 alt="Hero"
-                src="/Taxi-Lagi-Thinh.jpeg"
+                src="/Taxi-Lagi-Thinh.png"
                 className="mx-auto aspect-video overflow-hidden rounded-xl object-cover sm:w-full lg:order-last lg:aspect-square"
                 height={550}
                 width={550}

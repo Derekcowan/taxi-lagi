@@ -4,6 +4,7 @@ import "./globals.css";
 import { ThemeProvider } from "@/providers/theme-provider";
 import Script from "next/script";
 import ogImage from "./opengraph-image.png";
+import GoogleAnalytics from "@/components/GoogleAnalytics";
 
 const beVietnam = Be_Vietnam_Pro({
   weight: ["400", "500", "600", "700"],
@@ -40,19 +41,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="vi">
-      <head>
-        <Script
-          async
-          src="https://www.googletagmanager.com/gtag/js?id=G-CLHW0DKC34"
-        ></Script>
-        <Script id="google-analytics">
-          {`window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-CLHW0DKC34');`}
-        </Script>
-      </head>
+      <GoogleAnalytics />
       <body className={beVietnam.className}>
         <ThemeProvider
           attribute="class"
