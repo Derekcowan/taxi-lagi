@@ -24,10 +24,14 @@ const Hero = () => {
                 máy lạnh và wifi.
               </p>
               <div className="mt-4 flex flex-row flex-wrap gap-2 py-4">
-                <Button variant="default" size="lg">
+                <Button
+                  variant="default"
+                  size="lg"
+                  className="whitespace-nowrap"
+                >
                   <Link
                     href="tel:0962325023"
-                    className="text-lg font-bold tracking-wider text-foreground"
+                    className="whitespace-nowrap rounded-md px-4 py-2 text-lg font-bold tracking-wider text-foreground"
                   >
                     0962 325 023
                   </Link>
