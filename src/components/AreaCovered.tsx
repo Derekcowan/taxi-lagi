@@ -22,7 +22,7 @@ const AreaCovered = () => {
             src="/TAXI La Gi, Binh Thuan map.png"
             width="800"
             className="mx-auto rounded-lg object-cover"
-            quality={40}
+            quality={20}
           />
         </div>
         <div className="mx-auto grid max-w-5xl items-center gap-6 py-12 lg:grid-cols-3 lg:gap-12">
@@ -54,33 +54,6 @@ const AreaCovered = () => {
               Chúng tôi sẽ đưa bạn về nhà một cách thoải mái.
             </p>
           </div>
-          {/* <div className="grid gap-1">
-            <h3 className="flcx-row flex text-lg font-bold">
-              La Gi <MoveRight className="mx-4 items-center justify-center" />{" "}
-              Saigon
-            </h3>
-            <p className="text-sm text-gray-500 dark:text-gray-400">
-              Serving the greater Chicago metropolitan region.
-            </p>
-          </div>
-          <div className="grid gap-1">
-            <h3 className="flcx-row flex text-lg font-bold">
-              La Gi <MoveRight className="mx-4 items-center justify-center" />{" "}
-              Sài Gòn
-            </h3>
-            <p className="text-sm text-gray-500 dark:text-gray-400">
-              Du lịch Sài Gòn không căng thẳng.
-            </p>
-          </div>
-          <div className="grid gap-1">
-            <h3 className="flcx-row flex text-lg font-bold">
-              La Gi <MoveRight className="mx-4 items-center justify-center" />{" "}
-              Saigon
-            </h3>
-            <p className="text-sm text-gray-500 dark:text-gray-400">
-              Serving the greater Boston metropolitan region.
-            </p>
-          </div> */}
         </div>
       </div>
     </section>

@@ -2,7 +2,6 @@ import type { Metadata } from "next";
 import { Be_Vietnam_Pro } from "next/font/google";
 import "./globals.css";
 import { ThemeProvider } from "@/providers/theme-provider";
-import Script from "next/script";
 import ogImage from "./opengraph-image.png";
 import GoogleAnalytics from "@/components/GoogleAnalytics";
 
@@ -19,6 +18,7 @@ export const metadata: Metadata = {
   description:
     "Đặt taxi riêng tại La Gi với tài xế giàu kinh nghiệm. Chúng tôi cung cấp xe 4-7 chỗ thoải mái cho du lịch, đưa đón sân bay, đám cưới và các chuyến đi dài. Gọi ngay 0962 325023!",
   metadataBase: new URL("https://www.taxilagi.com"),
+  keywords: ["taxi", "taxi riêng", "taxi La Gi", "taxi Bình Thuận"],
   twitter: {
     card: "summary_large_image",
   },
