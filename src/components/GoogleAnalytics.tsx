@@ -8,7 +8,7 @@ const GoogleAnalytics = () => {
   useEffect(() => {
     const timer = setTimeout(() => {
       setIsLoaded(true);
-    }, 4000); // Delay in milliseconds
+    }, 1000); // Delay in milliseconds
 
     return () => clearTimeout(timer);
   }, []);
