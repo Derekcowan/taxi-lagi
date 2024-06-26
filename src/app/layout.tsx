@@ -16,13 +16,21 @@ export const metadata: Metadata = {
     template: "%s | TAXI La Gi",
   },
   description:
-    "Đặt taxi riêng tại La Gi với tài xế giàu kinh nghiệm. Chúng tôi cung cấp xe 4-7 chỗ thoải mái cho du lịch, đưa đón sân bay, đám cưới và các chuyến đi dài. Gọi ngay 0962 325023!",
+    "Đặt taxi riêng tại La Gi với tài xế giàu kinh nghiệm. Chúng tôi cung cấp xe 4-7 chỗ thoải mái cho du lịch, đưa đón sân bay, đám cưới và các chuyến đi dài. Gọi ngay 0962 325023",
   metadataBase: new URL("https://www.taxilagi.com"),
+
   keywords: ["taxi", "taxi riêng", "taxi La Gi", "taxi Bình Thuận"],
   twitter: {
     card: "summary_large_image",
   },
   openGraph: {
+    siteName: "TAXI La Gi",
+    title: "TAXI La Gi | Dịch Vụ Taxi Riêng | Gọi 0962 325023",
+    description:
+      "Đặt taxi riêng tại La Gi với tài xế giàu kinh nghiệm. Chúng tôi cung cấp xe 4-7 chỗ thoải mái cho du lịch, đưa đón sân bay, đám cưới và các chuyến đi dài. Gọi ngay 0962 325023",
+    type: "website",
+    locale: "vi_VN",
+    url: "https://www.taxilagi.com",
     images: [
       {
         url: ogImage.src,
